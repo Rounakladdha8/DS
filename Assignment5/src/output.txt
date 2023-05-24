@@ -1,0 +1,22 @@
+student@student-VirtualBox:~/Documents/assignments$ javac 
+TokenRing.java
+student@student-VirtualBox:~/Documents/assignments$ java 
+TokenRing
+How many processes would you like to create? 
+Please enter a number: 5
+Process 4 enters critical section
+Process 4 exits critical section
+Process 0 enters critical section
+Process 0 exits critical section
+Process 1 enters critical section
+Process 1 exits critical section
+Process 2 enters critical section
+Process 2 exits critical section
+Process 3 enters critical section
+Process 3 exits critical section
+Process 4 enters critical section
+Process 4 exits critical section
+.
+.
+.
+(program runs infinitely)

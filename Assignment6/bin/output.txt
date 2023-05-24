@@ -1,0 +1,32 @@
+student@student-VirtualBox:~/Documents/assignments$ javac 
+BullyRing.java
+student@student-VirtualBox:~/Documents/assignments$ java 
+BullyRing
+Enter total number of processes: 6
+Process 5 fails
+Process 0 Passes Election(0) message to Process 1
+Process 0 Passes Election(0) message to Process 2
+Process 0 Passes Election(0) message to Process 3
+Process 0 Passes Election(0) message to Process 4
+Process 1 passes Ok(1) message to Process 0
+Process 2 passes Ok(2) message to Process 0
+Process 3 passes Ok(3) message to Process 0
+Process 4 passes Ok(4) message to Process 0
+Process 1 Passes Election(1) message to Process 2
+Process 1 Passes Election(1) message to Process 3
+Process 1 Passes Election(1) message to Process 4
+Process 2 passes Ok(2) message to Process 1
+Process 3 passes Ok(3) message to Process 1
+Process 4 passes Ok(4) message to Process 1
+Process 2 Passes Election(2) message to Process 3
+Process 2 Passes Election(2) message to Process 4
+Process 3 passes Ok(3) message to Process 2
+Process 4 passes Ok(4) message to Process 2
+Process 3 Passes Election(3) message to Process 4
+Process 4 passes Ok(4) message to Process 3
+Finally Process 4 Becomes Coordinator
+Process 4 passes Coordinator(4) message to Process 3
+Process 4 passes Coordinator(4) message to Process 2
+Process 4 passes Coordinator(4) message to Process 1
+Process 4 passes Coordinator(4) message to Process 0
+End of Election

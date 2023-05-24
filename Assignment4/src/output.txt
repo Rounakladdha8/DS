@@ -1,0 +1,20 @@
+student@student-VirtualBox:~/Documents/assignments$ javac 
+BerkeleyAlgorithm.java
+student@student-VirtualBox:~/Documents/assignments$ java 
+BerkeleyAlgorithm
+How many clients are there in your network?
+Enter count: 2
+Enter time displayed in Server (HH:mm): 03:00
+Enter time displayed in Client 1 (HH:mm): 03:25
+Enter time displayed in Client 2 (HH:mm): 02:50
+Before Synchronization
+Server Clock: 03:00 | 2023-5-10
+Client 1 Clock: 03:25 | 2023-5-10
+Client 2 Clock: 02:50 | 2023-5-10
+Fault tolerant average = 5
+Clock 1 adjustment = -20
+Clock 2 adjustment = 15
+After Synchronization
+Synchronized Server Clock: 03:05 | 2023-05-10
+Synchronized Client 1 Clock: 03:05 | 2023-05-10
+Synchronized Client 2 Clock: 03:05 | 2023-05-10

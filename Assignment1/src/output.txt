@@ -1,0 +1,9 @@
+Terminal 1
+student@student-VirtualBox:~/Documents/assignments$ javac *.java
+student@student-VirtualBox:~/Documents/assignments$ java Server
+Server is up and running...
+Terminal 2
+student@student-VirtualBox:~/Documents/assignments$ java Client
+Enter radius: 12
+Area = 452.571 sq units
+Perimeter = 75.429 units

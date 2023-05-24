@@ -1,0 +1,44 @@
+Terminal 1
+student@student-VirtualBox:~/Documents/assignments$ idlj -fall 
+Calculator.idl
+student@student-VirtualBox:~/Documents/assignments$ javac *.java
+Note: ./CalculatorApp/CalculatorPOA.java uses unchecked or 
+unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+student@student-VirtualBox:~/Documents/assignments$ orbd -
+ORBInitialPort 4000
+Terminal 2
+student@student-VirtualBox:~/Documents/assignments$ java Server 
+-ORBInitialPort 4000 -ORBInitialHost localhost&
+[2] 4778
+Server ready and waiting...
+Terminal 3
+student@student-VirtualBox:~/Documents/assignments$ java Client 
+-ORBInitialPort 4000 -ORBInitialHost localhost
+Welcome to addition system:
+1. Add
+2. Subtract
+3. Multiply
+4. Divide
+Press any key to exit
+Enter your choice: 3
+Enter first no: 4
+Enter second no: 6
+4.0 * 6.0 = 24.0
+---------------------------------------------------
+1. Add
+2. Subtract
+3. Multiply
+4. Divide
+Press any key to exit
+Enter your choice: 1
+Enter first no: 9
+Enter second no: 1 
+9.0 + 1.0 = 10.0
+---------------------------------------------------
+1. Add
+2. Subtract
+3. Multiply
+4. Divide
+Press any key to exit
+Enter your choice: 5

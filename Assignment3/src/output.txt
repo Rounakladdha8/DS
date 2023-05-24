@@ -1,0 +1,16 @@
+student@student-VirtualBox:~/Documents/assignments$ export 
+MPJ_HOME=/home/student/Downloads/mpj-v0_44
+student@student-VirtualBox:~/Documents/assignments$ javac -cp 
+$MPJ_HOME/lib/mpj.jar DistributedSum.java
+student@student-VirtualBox:~/Documents/assignments$ 
+$MPJ_HOME/bin/mpjrun.sh -np 6 DistributedSum
+MPJ Express (0.44) is started in the multicore configuration
+Number of Processes Entered: 6
+Intermediate Sums:
+Process 0: 3
+Process 1: 7
+Process 2: 11
+Process 3: 15
+Process 4: 9
+Process 5: 10
+Total Sum: 55
